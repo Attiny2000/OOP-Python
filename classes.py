@@ -53,11 +53,7 @@ class ElecticCar(Car):
         
     def Ride(self):
         print("\nTurn on engine")
-        print("Push pedal\n")
-    def SetModel(self, m):
-        self.model = m 
-    def SetPower(self, mp):
-        self.powerOfMotor = mp        
+        print("Push pedal\n")    
     def SetCapacity(self, cb):
         self.capacityOfBattery = cb
     def PrintInfo(self):
